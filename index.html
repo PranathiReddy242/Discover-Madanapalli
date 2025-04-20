@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Madanapalle</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-blue-900 text-white p-4 flex justify-between items-center">
+    <div class="text-xl font-bold">DISCOVER MADANAPALLE</div>
+    <div class="space-x-4">
+      <a href="index.html" class="hover:underline font-semibold">Home</a>
+      <a href="explore.html" class="hover:underline">Explore Places</a>
+      <a href="transport.html" class="hover:underline">Transport</a>
+      <a href="colleges.html" class="hover:underline">Colleges</a>
+      <a href="essentials.html" class="hover:underline">Essentials</a>
+      <a href="theatres.html" class="hover:underline">Theatres& Fun</a>
+      <a href="food.html" class="hover:underline">Food&Cafes</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section with local Madanapalle image -->
+  <section class="relative bg-cover bg-center h-96" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Madanapalle.jpg/960px-Madanapalle.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center">
+      <h1 class="text-4xl font-bold">Welcome to Madanapalle</h1>
+      <p class="text-lg mt-2">A Guide for Newcomers & Locals</p>
+      <div class="mt-6">
+        <input type="text" placeholder="Search places, colleges or help..." class="w-96 p-3 rounded-full focus:outline-none text-black">
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories with proper linking -->
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-10 px-4">
+    <a href="explore.html" class="bg-white p-6 shadow rounded-lg text-center hover:shadow-xl transition-shadow">
+      <i class="fas fa-mountain text-blue-600 text-4xl"></i>
+      <h2 class="text-xl font-bold mt-2">Tourist Spots</h2>
+      <p class="text-sm mt-1">Discover Horsley Hills, Thalakona Falls and more</p>
+    </a>
+    
+    <a href="theatres.html" class="bg-white p-6 shadow rounded-lg text-center hover:shadow-xl transition-shadow">
+      <i class="fas fa-theater-masks text-blue-600 text-4xl"></i>
+      <h2 class="text-xl font-bold mt-2">Theatres & Fun</h2>
+      <p class="text-sm mt-1">Local cinemas and entertainment options</p>
+    </a>
+    
+    <a href="transport.html" class="bg-white p-6 shadow rounded-lg text-center hover:shadow-xl transition-shadow">
+      <i class="fas fa-bus text-blue-600 text-4xl"></i>
+      <h2 class="text-xl font-bold mt-2">Transport Help</h2>
+      <p class="text-sm mt-1">Bus routes, auto fares and travel tips</p>
+    </a>
+    
+    <a href="colleges.html" class="bg-white p-6 shadow rounded-lg text-center hover:shadow-xl transition-shadow">
+      <i class="fas fa-graduation-cap text-blue-600 text-4xl"></i>
+      <h2 class="text-xl font-bold mt-2">Colleges Nearby</h2>
+      <p class="text-sm mt-1">MITS, Besant College and other institutions</p>
+    </a>
+    
+    <a href="food.html" class="bg-white p-6 shadow rounded-lg text-center hover:shadow-xl transition-shadow">
+      <i class="fas fa-utensils text-blue-600 text-4xl"></i>
+      <h2 class="text-xl font-bold mt-2">Food & Cafes</h2>
+      <p class="text-sm mt-1">Best local restaurants and eateries</p>
+    </a>
+    
+    <a href="essentials.html" class="bg-white p-6 shadow rounded-lg text-center hover:shadow-xl transition-shadow">
+      <i class="fas fa-ambulance text-blue-600 text-4xl"></i>
+      <h2 class="text-xl font-bold mt-2">Emergency Contacts</h2>
+      <p class="text-sm mt-1">Hospitals, police and important services</p>
+    </a>
+  </section>
+
+  <!-- Map Section -->
+  <section class="mt-12 max-w-4xl mx-auto px-4">
+    <h2 class="text-2xl font-bold mb-4 text-center text-blue-900">Madanapalle Map</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.863070673039!2d78.4987283148211!3d13.55295599050135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2634f0e9e9c8f%3A0x5a2b4d2e7a5f3a1d!2sMadanapalle%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+      width="100%" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy"
+      class="rounded-lg shadow">
+    </iframe>
+  </section>
+
+  <!-- Local Tips -->
+  <section class="mt-8 max-w-4xl mx-auto px-4 bg-white p-6 rounded-lg shadow">
+    <h3 class="text-xl font-semibold mb-4 text-blue-800">Local Tips / Announcements</h3>
+    <ul class="list-disc ml-6 space-y-2">
+      <li class="flex items-start">
+        <span class="mr-2">🚧</span>
+        <span>Avoid RR Street during weekends due to heavy traffic</span>
+      </li>
+      <li class="flex items-start">
+        <span class="mr-2">🏠</span>
+        <span>New PG accommodation near MITS College opened (₹4,500/month)</span>
+      </li>
+      <li class="flex items-start">
+        <span class="mr-2">🛺</span>
+        <span>Standard auto fare from RTC Bus Stand to MITS College: ₹100</span>
+      </li>
+      <li class="flex items-start">
+        <span class="mr-2">🛍</span>
+        <span>Auto fare from RTC Bus Stand to main shopping areas: ₹40-50</span>
+      </li>
+      <li class="flex items-start">
+        <span class="mr-2">🌧</span>
+        <span>Best time to visit Horsley Hills: October to February</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white mt-12 py-6">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 Discover Madanapalle. Built with ❤ by Team.</p>
+      <div class="space-x-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-gray-300"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
